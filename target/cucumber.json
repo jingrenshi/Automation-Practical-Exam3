@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 909752674,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Techfios Page",
+            "match": {
+              "location": "StepDefinition.user_is_on_Techfios_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3343138078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Set SkyBlue Background",
+        "description": "",
+        "id": "techfios-page-set-back-ground-validation;set-skyblue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76392307,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the skyblue button",
+            "match": {
+              "location": "StepDefinition.user_click_the_skyblue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19394,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 659544983,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Techfios Page",
+            "match": {
+              "location": "StepDefinition.user_is_on_Techfios_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1592391588,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Set SkyBlue Background",
+        "description": "",
+        "id": "techfios-page-set-back-ground-validation;set-skyblue-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82636798,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click the white button",
+            "match": {
+              "location": "StepDefinition.user_click_the_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31030,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Background color will change to white blue",
+            "match": {
+              "location": "StepDefinition.background_color_will_change_to_white_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Page set back ground validation",
+    "description": "",
+    "id": "techfios-page-set-back-ground-validation",
+    "keyword": "Feature",
+    "uri": "features/Background.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
